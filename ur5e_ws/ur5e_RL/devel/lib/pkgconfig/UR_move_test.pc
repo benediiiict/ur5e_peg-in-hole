@@ -1,0 +1,8 @@
+prefix=/home/ben/work/ur5e_RL/devel
+
+Name: UR_move_test
+Description: Description of UR_move_test
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

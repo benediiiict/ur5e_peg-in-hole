@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+  <node name="joint_1" pkg="UR_move_test" type="gazebo_transport_to_ros_topic" output="screen" respawn="true" >
+    <param name="gazebo_transport_topic_to_sub" type="str" value="/gazebo/default/robot/wrist_3_link/ur5e_force_torque/wrench" />
+    <param name="ros_topic_to_pub" type="str" value="force_torque/robot/ur5e_force_torque" />
+    <param name="ros_rate" type="double" value="50.0" />
+  </node>
+</launch>
+
+<!-- <node name="joint_1" pkg="UR_move_test" type="gazebo_transport_to_ros_topic" output="screen" launch-prefix="xterm -e" > -->

@@ -1,0 +1,8 @@
+prefix=/home/ben/work/ur5e_RL/devel
+
+Name: ur_dashboard_msgs
+Description: Description of ur_dashboard_msgs
+Version: 2.1.2
+Cflags: -I/home/ben/work/ur5e_RL/devel/include
+Libs: -L${prefix}/lib 
+Requires: actionlib_msgs message_runtime std_msgs

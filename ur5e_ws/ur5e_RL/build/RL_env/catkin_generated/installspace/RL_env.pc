@@ -1,0 +1,8 @@
+prefix=/home/ben/work/ur5e_RL/install
+
+Name: RL_env
+Description: Description of RL_env
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/ben/work/ur5e_RL/devel
+
+Name: robotiq_85_driver
+Description: Description of robotiq_85_driver
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
